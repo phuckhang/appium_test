@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="tests" thread-count="2">
+    <parameter name="timeout" value="60"/>
+    <test name="Test2">
+        <!--<parameter name="platformVersion" value="8.0"/>-->
+        <!--<parameter name="deviceName" value="Samsung Galaxy S9"/>-->
+        <!--<parameter name="port" value="4730"/>-->
+        <classes>
+            <class name="modules.Guru99Test"/>
+        </classes>
+    </test>
+</suite>

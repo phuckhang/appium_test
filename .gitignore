@@ -1,0 +1,38 @@
+# Created by http://www.gitignore.io
+*.iml
+
+### Java ###
+*.class
+.project
+.classpath
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+## File-based project format
+*.ipr
+*.iml
+*.iws
+*.png
+
+## Additional for IntelliJ
+out/
+
+### Maven ###
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+### Intellij ###
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm
+automation.iml
+## Directory-based project format
+.idea/
