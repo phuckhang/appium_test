@@ -1,6 +1,7 @@
 Hello, this is a automation project which support Android platform.
 
 1. In order to run the script, make sure the environments below are available:
+	- Set ANDROID_HOME environment variable with the Android SDK root directory path.
 	- Device is connected to PC
 	- Install JDK 
 	- Install Maven (https://www.mkyong.com/maven/how-to-install-maven-in-windows/)
